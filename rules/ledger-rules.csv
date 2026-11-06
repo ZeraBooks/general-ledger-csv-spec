@@ -1,0 +1,18 @@
+rule_id,severity,applies_to,rule
+GL-001,error,all,"Required columns are present and amounts are plain decimals with two places, positive, no symbols."
+GL-002,error,chart,Every account number is unique.
+GL-003,error,chart,"account_type is asset, liability, equity, revenue or expense."
+GL-004,warning,chart,"normal_balance matches the type (debit for assets and expenses, credit for the rest), unless the account is a contra account named as one (accumulated depreciation, draws, returns, discounts, allowance)."
+GL-005,warning,chart,The account number is in the range this spec gives its type.
+GL-006,error,journal,Each entry's debits equal its credits.
+GL-007,error,journal,Each line has a debit or a credit and not both.
+GL-008,error,journal,Each entry has at least two lines and one date.
+GL-009,error,journal,Every account used exists in the chart of accounts.
+GL-010,warning,journal,No posting to an inactive account or to a parent account that has sub-accounts.
+GL-011,error,journal,Entry dates fall inside the period being checked.
+GL-012,error,trial balance,Total debits equal total credits.
+GL-013,error,trial balance,Each row has a balance in debit or credit and not both; every account is in the chart.
+GL-014,error,trial balance,Opening trial balance plus the journal equals the closing trial balance for every account.
+GL-015,warning,trial balance,"An account's balance is on its normal side (cash isn't a credit, accounts payable isn't a debit)."
+GL-016,error,trial balance,"Assets equal liabilities plus equity plus net income (revenue less expenses) for the period."
+GL-017,warning,journal,No two entries share the same date, accounts and amounts (a likely double posting).

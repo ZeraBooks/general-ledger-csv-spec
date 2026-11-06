@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "General Ledger CSV Spec"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/general-ledger-software"
+repository-code: "https://github.com/ZeraBooks/general-ledger-csv-spec"
+license: MIT
+abstract: "CSV spec and JSON Schemas for a chart of accounts, journal entries and trial balances, with fictional company ledgers and a validator for debits equal credits and trial balance ties."
+keywords:
+  - general-ledger
+  - double-entry
+  - trial-balance
+  - journal-entries
+  - validator

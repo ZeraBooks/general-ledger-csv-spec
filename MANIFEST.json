@@ -1,0 +1,722 @@
+{
+  "name": "general-ledger-csv-spec",
+  "version": "1.0.0",
+  "released": "2026-11-05",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/general-ledger-software",
+  "repository": "https://github.com/ZeraBooks/general-ledger-csv-spec",
+  "license_code": "MIT",
+  "license_data": "CC-BY-4.0",
+  "fictional_data": true,
+  "file_counts": {
+    "rules": 1,
+    "samples": 114,
+    "schema": 3
+  },
+  "files": [
+    {
+      "path": "rules/ledger-rules.csv",
+      "bytes": 1690,
+      "sha256": "d152a9ff1c19063bfbffe8a8602f19ac83c754a39daba03fd674dc76c63ef8e6",
+      "rows": 17
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/chart-of-accounts.csv",
+      "bytes": 1960,
+      "sha256": "b7dfa5a1354da73849d448e4e920ceaacf70db5665bc73124b3794dd2235fd29",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/journal-2026-07.csv",
+      "bytes": 7534,
+      "sha256": "6501afe9354f5317742138f728f77788c2f085e71b3d9329003e7aeb1fadebdb",
+      "rows": 71
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/journal-2026-08.csv",
+      "bytes": 6719,
+      "sha256": "04cda6edea624e8b9dbdcc2f2f0e4dd011bd8415f84db8096878efda98bddd28",
+      "rows": 63
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/journal-2026-09.csv",
+      "bytes": 7336,
+      "sha256": "eddfdd3e7d87ccec0eb5e2b55dde674e0a85538d3d0458c4a0207a3cc250a9d6",
+      "rows": 69
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/tb-2026-06-30.csv",
+      "bytes": 1353,
+      "sha256": "6e2b581e2320b0f6a586fd41a4d352e81631fc54c38dc8d5a5c8e516afd7a787",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/tb-2026-07-31.csv",
+      "bytes": 1266,
+      "sha256": "bbed7de967e6c84b0fea58e266437254a99f5496655353ba00628c663f820437",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/tb-2026-08-31.csv",
+      "bytes": 1310,
+      "sha256": "58fb49e520e486edb899556189c34d41d249ed6f4c45db86d315adae2a247189",
+      "rows": 31
+    },
+    {
+      "path": "samples/companies/brightwater-landscaping/tb-2026-09-30.csv",
+      "bytes": 1267,
+      "sha256": "823a89735f16c6aede40ead8581c7fb89b9a78175ab88fcb7a310bb0aef21f53",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/copperline-electric/chart-of-accounts.csv",
+      "bytes": 1926,
+      "sha256": "e442af3268b27ae2e6e9d89a9851764f82e31b7270764875f9465b858139ac74",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/copperline-electric/journal-2026-07.csv",
+      "bytes": 7395,
+      "sha256": "15270d310d6721a080e77b0670c113100d95267af31d3221c733630ac7bc6ebe",
+      "rows": 71
+    },
+    {
+      "path": "samples/companies/copperline-electric/journal-2026-08.csv",
+      "bytes": 6784,
+      "sha256": "3e6c4ec97e35839e7cdbb382499152bc07eccdde1fc554fc212ed1502c7fccbd",
+      "rows": 65
+    },
+    {
+      "path": "samples/companies/copperline-electric/journal-2026-09.csv",
+      "bytes": 7199,
+      "sha256": "f27080cc390c9e281d8c58564c708285aab91f054641cc23a9a09a24d7a651bf",
+      "rows": 69
+    },
+    {
+      "path": "samples/companies/copperline-electric/tb-2026-06-30.csv",
+      "bytes": 1322,
+      "sha256": "81852f2bca778b663d5ea44684503a8f84c05bbd1315a851420a987d36dc8c36",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/copperline-electric/tb-2026-07-31.csv",
+      "bytes": 1235,
+      "sha256": "57d6a1a9d1169b5c28e5ec0baa4a653e6fcc39b3f0d7e68bf35a12e15f17a54a",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/copperline-electric/tb-2026-08-31.csv",
+      "bytes": 1280,
+      "sha256": "53164b35d99e55acc5e41ad164ec6f29f134970e276d9bf6d7bdf5d882b76ed5",
+      "rows": 31
+    },
+    {
+      "path": "samples/companies/copperline-electric/tb-2026-09-30.csv",
+      "bytes": 1238,
+      "sha256": "386053676930760d24e2fef7cc968af4fa6db75ecb31c0c85bb495f522fe5a8f",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/journal-2026-07.csv",
+      "bytes": 6841,
+      "sha256": "be55dc0f2874e4b01175083249a1a21aceeacc5f7a6ddf33387047a28c3892f7",
+      "rows": 65
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/journal-2026-08.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/journal-2026-09.csv",
+      "bytes": 7423,
+      "sha256": "bb055b020ded01a58544a9107f4e8d88b0090bc8ca5389a31ac03273bb87334b",
+      "rows": 71
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/tb-2026-06-30.csv",
+      "bytes": 1327,
+      "sha256": "9dae255718662785c4fb03ea6e79e06ec260f36a143f8f3301988246fef429c7",
+      "rows": 32
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/tb-2026-07-31.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/tb-2026-08-31.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/companies/juniper-lane-bakery/tb-2026-09-30.csv",
+      "bytes": 1242,
+      "sha256": "35496d9e5b48d36fd62dfb5b380ca04b14235ff347d4273e0f1e04ce11896868",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/chart-of-accounts.csv",
+      "bytes": 1816,
+      "sha256": "0055c768ef17dc31b50bd09e60bf1239db13f507b96797462eed60331d5fbd97",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/journal-2026-07.csv",
+      "bytes": 6190,
+      "sha256": "e128a69d586c926e7d16f186c457d6954a5b4c041b4232ae7dac0a48e5074808",
+      "rows": 59
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/journal-2026-08.csv",
+      "bytes": 6188,
+      "sha256": "2289554340098650c4f337c5bce30966b5e95c3d71eaeaefd85de6174a710649",
+      "rows": 59
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/journal-2026-09.csv",
+      "bytes": 6387,
+      "sha256": "4c0d32d76bdcad7536c4c799aac05659e749f470f583082a98aa5f69ad0019c2",
+      "rows": 61
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/tb-2026-06-30.csv",
+      "bytes": 1264,
+      "sha256": "78f19a18d447696ea233e1c7b003b1372f540341ec825e0706f40aabc50d0862",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/tb-2026-07-31.csv",
+      "bytes": 1219,
+      "sha256": "c787aed54b3f357a192c049cc7df83eef57712e7c70ce03ce0efee112906312e",
+      "rows": 29
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/tb-2026-08-31.csv",
+      "bytes": 1220,
+      "sha256": "ef9c7362e8908ade7ab889b70315246574b01c3bb66a3f20a99c728d55fba1bc",
+      "rows": 29
+    },
+    {
+      "path": "samples/companies/okafor-family-dental/tb-2026-09-30.csv",
+      "bytes": 1221,
+      "sha256": "195c7d918134a83f060879f700177e39452a0b77a1bf550388929352519b5584",
+      "rows": 29
+    },
+    {
+      "path": "samples/companies/redline-freight/chart-of-accounts.csv",
+      "bytes": 1861,
+      "sha256": "7855b88cd5fd2f4fd0e74181ab8dcca81a1846278f5434aa694e6c8c91822ed0",
+      "rows": 31
+    },
+    {
+      "path": "samples/companies/redline-freight/journal-2026-07.csv",
+      "bytes": 6396,
+      "sha256": "267b5571108dd65557bb7419744bdf6446b64bd93f9947d88687e3c275263d52",
+      "rows": 61
+    },
+    {
+      "path": "samples/companies/redline-freight/journal-2026-08.csv",
+      "bytes": 6585,
+      "sha256": "3997af32c603ef1916c27607317916ff4ec8344bb0fa516d75061582e536255a",
+      "rows": 63
+    },
+    {
+      "path": "samples/companies/redline-freight/journal-2026-09.csv",
+      "bytes": 6197,
+      "sha256": "e3ae9abc3c6815a00186d3b54753650cc0b3389bb0835487696c068091ccb921",
+      "rows": 59
+    },
+    {
+      "path": "samples/companies/redline-freight/tb-2026-06-30.csv",
+      "bytes": 1291,
+      "sha256": "5dd462d78c64488ea51e58cdc6feefd2119d221ea176584bfb495c2651340504",
+      "rows": 31
+    },
+    {
+      "path": "samples/companies/redline-freight/tb-2026-07-31.csv",
+      "bytes": 1244,
+      "sha256": "7f941837b182d423c0a135a818f3bce97025b337c871e276c9d44dd272394efe",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/redline-freight/tb-2026-08-31.csv",
+      "bytes": 1247,
+      "sha256": "77e62ff700fa2204a2dfada4dcc093b8ed2cd5910b09370eafe50e338cf3e6a9",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/redline-freight/tb-2026-09-30.csv",
+      "bytes": 1247,
+      "sha256": "ad20ff20586793fd1faf84c48cacb9472a7d6c7fd0510e004f9f406121079c87",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/vega-cpa/chart-of-accounts.csv",
+      "bytes": 1824,
+      "sha256": "c87952fa115cf1690b99bbc7998dd4040a09958c2d09b93b9049c4df458baa7f",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/vega-cpa/journal-2026-07.csv",
+      "bytes": 6383,
+      "sha256": "4e0ed6f72a700e7fb9730fc29a30f272470139f2416064761b0ef7b1575814ec",
+      "rows": 61
+    },
+    {
+      "path": "samples/companies/vega-cpa/journal-2026-08.csv",
+      "bytes": 5989,
+      "sha256": "d5560fc3c673e3cdd844054aa7f5db5bc5a2577846acc3e50fc4e8647619f12a",
+      "rows": 57
+    },
+    {
+      "path": "samples/companies/vega-cpa/journal-2026-09.csv",
+      "bytes": 5989,
+      "sha256": "76129e15a0839c4189260e2cca1df73cf445d0c22c1ab693213a01840d82356a",
+      "rows": 57
+    },
+    {
+      "path": "samples/companies/vega-cpa/tb-2026-06-30.csv",
+      "bytes": 1263,
+      "sha256": "cc8e06dad1da4609fcf3896f1a58e26f55d96a4b6426fba74d83528f4b36208b",
+      "rows": 30
+    },
+    {
+      "path": "samples/companies/vega-cpa/tb-2026-07-31.csv",
+      "bytes": 1216,
+      "sha256": "2f1b408a493b09e9d2027cde87b925906795c296e5624e73bd91db819fc99440",
+      "rows": 29
+    },
+    {
+      "path": "samples/companies/vega-cpa/tb-2026-08-31.csv",
+      "bytes": 1217,
+      "sha256": "d4ab47b4e263ddb135434d6fa96865cc604f450402dd3b77a7f43f7e20937ad6",
+      "rows": 29
+    },
+    {
+      "path": "samples/companies/vega-cpa/tb-2026-09-30.csv",
+      "bytes": 1217,
+      "sha256": "48d314485ca003089585a9b3bda35f3e4095d13259d870b6ac58ea76f9526263",
+      "rows": 29
+    },
+    {
+      "path": "samples/index.csv",
+      "bytes": 1250,
+      "sha256": "dd700de691b4f4c08fd12c8e7d90d8f9a812dd076013831a32ea3971762ac873",
+      "rows": 18
+    },
+    {
+      "path": "samples/invalid/abnormal-balance/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/abnormal-balance/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "89dde5720eb520e8fc86da6c030a4a07ff22fe24ba045f981dae6f68acb166ec",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/account-not-in-chart/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/account-not-in-chart/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/account-not-in-chart/journal.csv",
+      "bytes": 6805,
+      "sha256": "8bb623521a50089d5ff6f37a19f60fd477d79d2bfc98341b387797083b4b288d",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/account-not-in-chart/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/debit-and-credit-on-one-line/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/debit-and-credit-on-one-line/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/debit-and-credit-on-one-line/journal.csv",
+      "bytes": 6812,
+      "sha256": "3cde183b6473d675d0bbe08b4d56a507174abb16760de3061b9edf6cc77b4abb",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/debit-and-credit-on-one-line/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/dollar-signs/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/dollar-signs/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/dollar-signs/journal.csv",
+      "bytes": 6806,
+      "sha256": "cfdf3da9c902581b636e42eeb0f22437630a306bcfcf3d02ef0ef25fd0d769ed",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/dollar-signs/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/double-posting/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/double-posting/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/double-posting/journal.csv",
+      "bytes": 6961,
+      "sha256": "62a6a2f2b6ee8453539098249408274c9b8deae322f9301feca0231e994bbcd7",
+      "rows": 67
+    },
+    {
+      "path": "samples/invalid/double-posting/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/duplicate-account-number/chart-of-accounts.csv",
+      "bytes": 1988,
+      "sha256": "55b3bc1c33ffa5efad1ea670994fa4c1f680971116e2812f07c632193601dcce",
+      "rows": 33
+    },
+    {
+      "path": "samples/invalid/duplicate-account-number/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/duplicate-account-number/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/duplicate-account-number/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/entry-missing-from-journal/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/entry-missing-from-journal/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/entry-missing-from-journal/journal.csv",
+      "bytes": 6577,
+      "sha256": "19a33fef9cda971a0d2ecb1b916758a20649a3e0a4b85e5c0f0b3802903745de",
+      "rows": 63
+    },
+    {
+      "path": "samples/invalid/entry-missing-from-journal/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/entry-out-of-balance/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/entry-out-of-balance/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/entry-out-of-balance/journal.csv",
+      "bytes": 6805,
+      "sha256": "2670a8c62bc196aa537777bb7133b1be412195c82f8f6dfa8b87df936291f0e4",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/entry-out-of-balance/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/entry-outside-period/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/entry-outside-period/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/entry-outside-period/journal.csv",
+      "bytes": 6805,
+      "sha256": "11c337609e90547d5b287199b040f340b8c44811dc1f1803677d92f86404d1d1",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/entry-outside-period/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/expected.json",
+      "bytes": 6105,
+      "sha256": "a7dd4058d389fc403bc47971bbe57c5e45f27d272abd3eb534c7900d6db2bb56"
+    },
+    {
+      "path": "samples/invalid/inactive-account/chart-of-accounts.csv",
+      "bytes": 1938,
+      "sha256": "bf61ce84601b683111157db728b725ea9fdd0315132cf423ee025b333b804616",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/inactive-account/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/inactive-account/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/inactive-account/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/number-out-of-range/chart-of-accounts.csv",
+      "bytes": 1991,
+      "sha256": "81b1e3e6f4ad417af69054517c66b7f3679d55b9437e27c546c0c66ce33876f2",
+      "rows": 33
+    },
+    {
+      "path": "samples/invalid/number-out-of-range/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/number-out-of-range/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/number-out-of-range/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/one-line-entry/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/one-line-entry/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/one-line-entry/journal.csv",
+      "bytes": 6763,
+      "sha256": "97a6a1993050ab49e803d361fd11c0f190d3082c296d476b675b029b5936e1c7",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/one-line-entry/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/tb-both-sides/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/tb-both-sides/closing-tb.csv",
+      "bytes": 1286,
+      "sha256": "1df036deee11fb61d5241b5ba6db942933093fbdaff3f13df96247c0e3df2014",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/tb-both-sides/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/tb-both-sides/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/tb-does-not-balance/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/tb-does-not-balance/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "bc20d8f5b37b50b5fdc6fc5d806e019280ad423280e0aad9dfe639527d3c276f",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/tb-does-not-balance/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/tb-does-not-balance/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/unknown-account-type/chart-of-accounts.csv",
+      "bytes": 1947,
+      "sha256": "c208f0e49af65357681e50c013f100feb9a1652c35851a33bfe8b759fe6de029",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/unknown-account-type/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/unknown-account-type/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/unknown-account-type/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "samples/invalid/unmapped-account-in-tb/chart-of-accounts.csv",
+      "bytes": 1939,
+      "sha256": "740b539000673985a949a09f006d459d866432d13bc8674f0a6f00a26dd1f023",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/unmapped-account-in-tb/closing-tb.csv",
+      "bytes": 1306,
+      "sha256": "b006bb07e47b7ea22de5e7dd9dbb66f5b17c12e1159de17cbbede8836481b4b2",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/wrong-normal-balance/chart-of-accounts.csv",
+      "bytes": 1940,
+      "sha256": "5b58fbf5ebb583995997acca3da235554ba518e31331b2c64ed2b4625a5c9d63",
+      "rows": 32
+    },
+    {
+      "path": "samples/invalid/wrong-normal-balance/closing-tb.csv",
+      "bytes": 1282,
+      "sha256": "6136c79e179342648bf119056da7f8b601c87b25080bebab819ee169f03a5381",
+      "rows": 31
+    },
+    {
+      "path": "samples/invalid/wrong-normal-balance/journal.csv",
+      "bytes": 6805,
+      "sha256": "8762d5d4dd4759d5619dd39af3f7c022d1f6c061389f80b9d31cd5de254e1ffd",
+      "rows": 65
+    },
+    {
+      "path": "samples/invalid/wrong-normal-balance/opening-tb.csv",
+      "bytes": 1238,
+      "sha256": "35663909c568b3fabfb7c96c29d1422874ed8bbcd951c04fc98404f0f98bd5f7",
+      "rows": 30
+    },
+    {
+      "path": "schema/chart-of-accounts.schema.json",
+      "bytes": 1504,
+      "sha256": "e45c54f3359214f84135f043dac010cb8f74f4105dd075283123c1601bd879a7"
+    },
+    {
+      "path": "schema/journal-entry-line.schema.json",
+      "bytes": 1293,
+      "sha256": "f2a0564d51aff205829cf90a65760dec550c42ff3f9d53f5a5571dd089d98b3e"
+    },
+    {
+      "path": "schema/trial-balance-row.schema.json",
+      "bytes": 801,
+      "sha256": "e66a370277c8e5e958c9ce2a5f3a969876882e47d51e9cff84a0d3f03b8c63d1"
+    }
+  ]
+}

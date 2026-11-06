@@ -1,0 +1,66 @@
+entry_id,date,account_number,account_name,description,debit,credit,entry_type,source,reference
+JE-2026-0012,2026-07-01,6100,Rent,Rent,3000.00,,standard,Bank statement,ACH
+JE-2026-0012,2026-07-01,1000,Operating Checking,Rent,,3000.00,standard,Bank statement,ACH
+JE-2026-0007,2026-07-02,1100,Accounts Receivable,Invoice 702,5634.01,,standard,Invoice,INV-702
+JE-2026-0007,2026-07-02,4100,Wholesale and Catering,Invoice 702,,5634.01,standard,Invoice,INV-702
+JE-2026-0001,2026-07-04,1000,Operating Checking,Weekly deposits,7351.40,,standard,Bank statement,DEP 0704
+JE-2026-0001,2026-07-04,4000,Bakery Sales,Weekly deposits,,6854.45,standard,Bank statement,DEP 0704
+JE-2026-0001,2026-07-04,2300,Sales Tax Payable,Weekly deposits,,496.95,standard,Bank statement,DEP 0704
+JE-2026-0018,2026-07-06,6700,Vehicle and Fuel,Card: Vehicle and Fuel,1117.33,,standard,Card statement,CARD
+JE-2026-0018,2026-07-06,2100,Business Credit Card,Card: Vehicle and Fuel,,1117.33,standard,Card statement,CARD
+JE-2026-0019,2026-07-09,6400,Supplies,Card: Supplies,193.69,,standard,Card statement,CARD
+JE-2026-0019,2026-07-09,2100,Business Credit Card,Card: Supplies,,193.69,standard,Card statement,CARD
+JE-2026-0015,2026-07-10,6400,Supplies,Bill: Supplies,235.42,,standard,Bill,BILL-76400
+JE-2026-0015,2026-07-10,2000,Accounts Payable,Bill: Supplies,,235.42,standard,Bill,BILL-76400
+JE-2026-0022,2026-07-10,2700,Equipment Loan,Equipment loan payment,600.00,,standard,Bank statement,LOAN
+JE-2026-0022,2026-07-10,8500,Interest Expense,Equipment loan payment,158.34,,standard,Bank statement,LOAN
+JE-2026-0022,2026-07-10,1000,Operating Checking,Equipment loan payment,,758.34,standard,Bank statement,LOAN
+JE-2026-0002,2026-07-11,1000,Operating Checking,Weekly deposits,11124.67,,standard,Bank statement,DEP 0711
+JE-2026-0002,2026-07-11,4000,Bakery Sales,Weekly deposits,,10372.65,standard,Bank statement,DEP 0711
+JE-2026-0002,2026-07-11,2300,Sales Tax Payable,Weekly deposits,,752.02,standard,Bank statement,DEP 0711
+JE-2026-0013,2026-07-12,5000,Ingredients and Packaging,Bill: Ingredients and Packaging,7981.06,,standard,Bill,BILL-75000
+JE-2026-0013,2026-07-12,2000,Accounts Payable,Bill: Ingredients and Packaging,,7981.06,standard,Bill,BILL-75000
+JE-2026-0014,2026-07-13,6200,Utilities,Bill: Utilities,757.50,,standard,Bill,BILL-76200
+JE-2026-0014,2026-07-13,2000,Accounts Payable,Bill: Utilities,,757.50,standard,Bill,BILL-76200
+JE-2026-0009,2026-07-15,6000,Wages,Payroll,9708.33,,standard,Payroll report,PR 7/15
+JE-2026-0009,2026-07-15,6010,Payroll Taxes,Payroll,742.69,,standard,Payroll report,PR 7/15
+JE-2026-0009,2026-07-15,1000,Operating Checking,Payroll,,7572.50,standard,Payroll report,PR 7/15
+JE-2026-0009,2026-07-15,2200,Payroll Liabilities,Payroll,,2878.52,standard,Payroll report,PR 7/15
+JE-2026-0005,2026-07-16,1100,Accounts Receivable,Invoice 700,2907.54,,standard,Invoice,INV-700
+JE-2026-0005,2026-07-16,4100,Wholesale and Catering,Invoice 700,,2907.54,standard,Invoice,INV-700
+JE-2026-0011,2026-07-16,2200,Payroll Liabilities,Payroll tax deposit,8177.47,,standard,Bank statement,EFTPS
+JE-2026-0011,2026-07-16,1000,Operating Checking,Payroll tax deposit,,8177.47,standard,Bank statement,EFTPS
+JE-2026-0003,2026-07-18,1000,Operating Checking,Weekly deposits,9582.93,,standard,Bank statement,DEP 0718
+JE-2026-0003,2026-07-18,4000,Bakery Sales,Weekly deposits,,8935.13,standard,Bank statement,DEP 0718
+JE-2026-0003,2026-07-18,2300,Sales Tax Payable,Weekly deposits,,647.80,standard,Bank statement,DEP 0718
+JE-2026-0006,2026-07-18,1100,Accounts Receivable,Invoice 701,3761.98,,standard,Invoice,INV-701
+JE-2026-0006,2026-07-18,4100,Wholesale and Catering,Invoice 701,,3761.98,standard,Invoice,INV-701
+JE-2026-0008,2026-07-18,1000,Operating Checking,Customer payments received,15366.26,,standard,Bank statement,ACH batch
+JE-2026-0008,2026-07-18,1100,Accounts Receivable,Customer payments received,,15366.26,standard,Bank statement,ACH batch
+JE-2026-0021,2026-07-20,2300,Sales Tax Payable,Sales tax return paid,3862.82,,standard,Bank statement,STATE DOR
+JE-2026-0021,2026-07-20,1000,Operating Checking,Sales tax return paid,,3862.82,standard,Bank statement,STATE DOR
+JE-2026-0016,2026-07-21,2000,Accounts Payable,Vendor payments,10147.38,,standard,Bank statement,CHK batch
+JE-2026-0016,2026-07-21,1000,Operating Checking,Vendor payments,,10147.38,standard,Bank statement,CHK batch
+JE-2026-0017,2026-07-21,6500,Software and Subscriptions,Card: Software and Subscriptions,293.03,,standard,Card statement,CARD
+JE-2026-0017,2026-07-21,2100,Business Credit Card,Card: Software and Subscriptions,,293.03,standard,Card statement,CARD
+JE-2026-0025,2026-07-21,3100,Owner's Draws,Owner draw,3360.89,,standard,Bank statement,XFER
+JE-2026-0025,2026-07-21,1000,Operating Checking,Owner draw,,3360.89,standard,Bank statement,XFER
+JE-2026-0004,2026-07-25,1000,Operating Checking,Weekly deposits,8558.42,,standard,Bank statement,DEP 0725
+JE-2026-0004,2026-07-25,4000,Bakery Sales,Weekly deposits,,7979.88,standard,Bank statement,DEP 0725
+JE-2026-0004,2026-07-25,2300,Sales Tax Payable,Weekly deposits,,578.54,standard,Bank statement,DEP 0725
+JE-2026-0020,2026-07-25,2100,Business Credit Card,Credit card payment,5025.33,,standard,Bank statement,CARD PMT
+JE-2026-0020,2026-07-25,1000,Operating Checking,Credit card payment,,5025.33,standard,Bank statement,CARD PMT
+JE-2026-0010,2026-07-29,6000,Wages,Payroll,10853.37,,standard,Payroll report,PR 7/29
+JE-2026-0010,2026-07-29,6010,Payroll Taxes,Payroll,830.28,,standard,Payroll report,PR 7/29
+JE-2026-0010,2026-07-29,1000,Operating Checking,Payroll,,8465.63,standard,Payroll report,PR 7/29
+JE-2026-0010,2026-07-29,2200,Payroll Liabilities,Payroll,,3218.02,standard,Payroll report,PR 7/29
+JE-2026-0023,2026-07-31,6600,Bank and Card Fees,Bank and merchant fees,80.00,,standard,Bank statement,FEES
+JE-2026-0023,2026-07-31,1000,Operating Checking,Bank and merchant fees,,80.00,standard,Bank statement,FEES
+JE-2026-0024,2026-07-31,1010,Savings,Interest earned,9.22,,standard,Bank statement,INT
+JE-2026-0024,2026-07-31,8000,Interest Income,Interest earned,,9.22,standard,Bank statement,INT
+JE-2026-0026,2026-07-31,6800,Depreciation,Monthly depreciation,750.00,,adjusting,Fixed asset schedule,DEP
+JE-2026-0026,2026-07-31,1510,Accumulated Depreciation - Equipment,Monthly depreciation,,750.00,adjusting,Fixed asset schedule,DEP
+JE-2026-0027,2026-07-31,6300,Insurance,Prepaid insurance used,300.00,,adjusting,Prepaid schedule,PREPAID
+JE-2026-0027,2026-07-31,1300,Prepaid Insurance,Prepaid insurance used,,300.00,adjusting,Prepaid schedule,PREPAID
+JE-2026-0028,2026-07-31,1200,Inventory,Inventory count adjustment,267.74,,adjusting,Inventory count,COUNT
+JE-2026-0028,2026-07-31,5000,Ingredients and Packaging,Inventory count adjustment,,267.74,adjusting,Inventory count,COUNT

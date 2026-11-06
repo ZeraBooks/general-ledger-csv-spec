@@ -1,0 +1,30 @@
+account_number,account_name,account_type,debit,credit
+1000,Operating Checking,asset,23941.98,
+1010,Savings,asset,23770.11,
+1100,Accounts Receivable,asset,19353.41,
+1300,Prepaid Insurance,asset,1419.00,
+1500,Equipment,asset,53324.50,
+1510,Accumulated Depreciation - Equipment,asset,,14591.26
+2000,Accounts Payable,liability,,4298.59
+2200,Payroll Liabilities,liability,,1184.17
+2700,Equipment Loan,liability,,31257.06
+3000,Owner's Capital,equity,,12570.33
+3100,Owner's Draws,equity,21091.94,
+3900,Retained Earnings,equity,,11438.17
+4000,Tax Preparation Fees,revenue,,158280.45
+4100,Monthly Bookkeeping Fees,revenue,,88058.04
+4900,Sales Returns and Discounts,revenue,1718.14,
+5000,Contract Preparer Costs,expense,55405.33,
+6000,Wages,expense,71031.52,
+6010,Payroll Taxes,expense,7582.03,
+6100,Rent,expense,19200.00,
+6200,Utilities,expense,4074.45,
+6300,Insurance,expense,2785.70,
+6400,Supplies,expense,4112.46,
+6500,Software and Subscriptions,expense,2042.14,
+6600,Bank and Card Fees,expense,1270.29,
+6700,Vehicle and Fuel,expense,3377.12,
+6800,Depreciation,expense,4080.49,
+6900,Professional Fees,expense,1309.95,
+8000,Interest Income,revenue,,197.10
+8500,Interest Expense,expense,984.61,

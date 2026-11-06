@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/general-ledger-csv-spec/schema/chart-of-accounts.schema.json",
+  "title": "Chart of accounts row",
+  "type": "object",
+  "required": ["account_number", "account_name", "account_type", "normal_balance"],
+  "additionalProperties": false,
+  "properties": {
+    "account_number": {"type": "string", "pattern": "^[0-9]{4,6}(-[0-9]{1,4})?$", "description": "Unique. This spec numbers by type: 1xxx assets, 2xxx liabilities, 3xxx equity, 4xxx revenue, 5xxx cost of sales, 6xxx-7xxx expenses, 8xxx other income and expense."},
+    "account_name": {"type": "string", "minLength": 1},
+    "account_type": {"enum": ["asset", "liability", "equity", "revenue", "expense"]},
+    "account_subtype": {"enum": ["", "bank", "accounts_receivable", "other_current_asset", "fixed_asset", "accumulated_depreciation", "other_asset", "accounts_payable", "credit_card", "other_current_liability", "long_term_liability", "owner_equity", "retained_earnings", "income", "other_income", "cost_of_sales", "operating_expense", "other_expense"]},
+    "normal_balance": {"enum": ["debit", "credit"], "description": "Debit for assets and expenses, credit for liabilities, equity and revenue. Contra accounts (accumulated depreciation, owner draws, sales returns) flip it."},
+    "parent_account": {"type": "string", "description": "Account number of the parent for sub-accounts, or blank."},
+    "active": {"enum": ["yes", "no"]}
+  }
+}

@@ -1,0 +1,60 @@
+entry_id,date,account_number,account_name,description,debit,credit,entry_type,source,reference
+JE-2026-0013,2026-07-01,6100,Rent,Rent,7200.00,,standard,Bank statement,ACH
+JE-2026-0013,2026-07-01,1000,Operating Checking,Rent,,7200.00,standard,Bank statement,ACH
+JE-2026-0025,2026-07-03,3100,Owner's Draws,Owner draw,6006.82,,standard,Bank statement,XFER
+JE-2026-0025,2026-07-03,1000,Operating Checking,Owner draw,,6006.82,standard,Bank statement,XFER
+JE-2026-0001,2026-07-04,1000,Operating Checking,Weekly deposits,20125.56,,standard,Bank statement,DEP 0704
+JE-2026-0001,2026-07-04,4000,Patient Fees,Weekly deposits,,20125.56,standard,Bank statement,DEP 0704
+JE-2026-0014,2026-07-06,5000,Dental Lab and Supplies,Bill: Dental Lab and Supplies,17350.80,,standard,Bill,BILL-75000
+JE-2026-0014,2026-07-06,2000,Accounts Payable,Bill: Dental Lab and Supplies,,17350.80,standard,Bill,BILL-75000
+JE-2026-0016,2026-07-06,6400,Supplies,Bill: Supplies,1403.47,,standard,Bill,BILL-76400
+JE-2026-0016,2026-07-06,2000,Accounts Payable,Bill: Supplies,,1403.47,standard,Bill,BILL-76400
+JE-2026-0015,2026-07-08,6200,Utilities,Bill: Utilities,2132.52,,standard,Bill,BILL-76200
+JE-2026-0015,2026-07-08,2000,Accounts Payable,Bill: Utilities,,2132.52,standard,Bill,BILL-76200
+JE-2026-0020,2026-07-08,6400,Supplies,Card: Supplies,287.11,,standard,Card statement,CARD
+JE-2026-0020,2026-07-08,2100,Business Credit Card,Card: Supplies,,287.11,standard,Card statement,CARD
+JE-2026-0022,2026-07-10,2700,Equipment Loan,Equipment loan payment,1440.00,,standard,Bank statement,LOAN
+JE-2026-0022,2026-07-10,8500,Interest Expense,Equipment loan payment,403.60,,standard,Bank statement,LOAN
+JE-2026-0022,2026-07-10,1000,Operating Checking,Equipment loan payment,,1843.60,standard,Bank statement,LOAN
+JE-2026-0002,2026-07-11,1000,Operating Checking,Weekly deposits,24944.88,,standard,Bank statement,DEP 0711
+JE-2026-0002,2026-07-11,4000,Patient Fees,Weekly deposits,,24944.88,standard,Bank statement,DEP 0711
+JE-2026-0006,2026-07-12,1100,Accounts Receivable,Invoice 701,12396.67,,standard,Invoice,INV-701
+JE-2026-0006,2026-07-12,4100,Insurance Reimbursements,Invoice 701,,12396.67,standard,Invoice,INV-701
+JE-2026-0010,2026-07-15,6000,Wages,Payroll,18520.39,,standard,Payroll report,PR 7/15
+JE-2026-0010,2026-07-15,6010,Payroll Taxes,Payroll,1416.81,,standard,Payroll report,PR 7/15
+JE-2026-0010,2026-07-15,1000,Operating Checking,Payroll,,14445.90,standard,Payroll report,PR 7/15
+JE-2026-0010,2026-07-15,2200,Payroll Liabilities,Payroll,,5491.30,standard,Payroll report,PR 7/15
+JE-2026-0019,2026-07-15,6700,Vehicle and Fuel,Card: Vehicle and Fuel,726.84,,standard,Card statement,CARD
+JE-2026-0019,2026-07-15,2100,Business Credit Card,Card: Vehicle and Fuel,,726.84,standard,Card statement,CARD
+JE-2026-0012,2026-07-16,2200,Payroll Liabilities,Payroll tax deposit,18359.50,,standard,Bank statement,EFTPS
+JE-2026-0012,2026-07-16,1000,Operating Checking,Payroll tax deposit,,18359.50,standard,Bank statement,EFTPS
+JE-2026-0005,2026-07-17,1100,Accounts Receivable,Invoice 700,11451.50,,standard,Invoice,INV-700
+JE-2026-0005,2026-07-17,4100,Insurance Reimbursements,Invoice 700,,11451.50,standard,Invoice,INV-700
+JE-2026-0007,2026-07-17,1100,Accounts Receivable,Invoice 702,7371.96,,standard,Invoice,INV-702
+JE-2026-0007,2026-07-17,4100,Insurance Reimbursements,Invoice 702,,7371.96,standard,Invoice,INV-702
+JE-2026-0003,2026-07-18,1000,Operating Checking,Weekly deposits,18587.23,,standard,Bank statement,DEP 0718
+JE-2026-0003,2026-07-18,4000,Patient Fees,Weekly deposits,,18587.23,standard,Bank statement,DEP 0718
+JE-2026-0009,2026-07-18,1000,Operating Checking,Customer payments received,37470.17,,standard,Bank statement,ACH batch
+JE-2026-0009,2026-07-18,1100,Accounts Receivable,Customer payments received,,37470.17,standard,Bank statement,ACH batch
+JE-2026-0017,2026-07-21,2000,Accounts Payable,Vendor payments,24908.01,,standard,Bank statement,CHK batch
+JE-2026-0017,2026-07-21,1000,Operating Checking,Vendor payments,,24908.01,standard,Bank statement,CHK batch
+JE-2026-0018,2026-07-21,6500,Software and Subscriptions,Card: Software and Subscriptions,863.28,,standard,Card statement,CARD
+JE-2026-0018,2026-07-21,2100,Business Credit Card,Card: Software and Subscriptions,,863.28,standard,Card statement,CARD
+JE-2026-0004,2026-07-25,1000,Operating Checking,Weekly deposits,14604.22,,standard,Bank statement,DEP 0725
+JE-2026-0004,2026-07-25,4000,Patient Fees,Weekly deposits,,14604.22,standard,Bank statement,DEP 0725
+JE-2026-0008,2026-07-25,1100,Accounts Receivable,Invoice 703,7397.04,,standard,Invoice,INV-703
+JE-2026-0008,2026-07-25,4100,Insurance Reimbursements,Invoice 703,,7397.04,standard,Invoice,INV-703
+JE-2026-0021,2026-07-25,2100,Business Credit Card,Credit card payment,9933.19,,standard,Bank statement,CARD PMT
+JE-2026-0021,2026-07-25,1000,Operating Checking,Credit card payment,,9933.19,standard,Bank statement,CARD PMT
+JE-2026-0011,2026-07-29,6000,Wages,Payroll,17296.58,,standard,Payroll report,PR 7/29
+JE-2026-0011,2026-07-29,6010,Payroll Taxes,Payroll,1323.19,,standard,Payroll report,PR 7/29
+JE-2026-0011,2026-07-29,1000,Operating Checking,Payroll,,13491.33,standard,Payroll report,PR 7/29
+JE-2026-0011,2026-07-29,2200,Payroll Liabilities,Payroll,,5128.44,standard,Payroll report,PR 7/29
+JE-2026-0023,2026-07-31,6600,Bank and Card Fees,Bank and merchant fees,226.80,,standard,Bank statement,FEES
+JE-2026-0023,2026-07-31,1000,Operating Checking,Bank and merchant fees,,226.80,standard,Bank statement,FEES
+JE-2026-0024,2026-07-31,1010,Savings,Interest earned,25.06,,standard,Bank statement,INT
+JE-2026-0024,2026-07-31,8000,Interest Income,Interest earned,,25.06,standard,Bank statement,INT
+JE-2026-0026,2026-07-31,6800,Depreciation,Monthly depreciation,1800.00,,adjusting,Fixed asset schedule,DEP
+JE-2026-0026,2026-07-31,1510,Accumulated Depreciation - Equipment,Monthly depreciation,,1800.00,adjusting,Fixed asset schedule,DEP
+JE-2026-0027,2026-07-31,6300,Insurance,Prepaid insurance used,720.00,,adjusting,Prepaid schedule,PREPAID
+JE-2026-0027,2026-07-31,1300,Prepaid Insurance,Prepaid insurance used,,720.00,adjusting,Prepaid schedule,PREPAID

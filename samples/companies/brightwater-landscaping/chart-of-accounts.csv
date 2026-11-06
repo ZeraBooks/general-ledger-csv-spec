@@ -1,0 +1,33 @@
+account_number,account_name,account_type,account_subtype,normal_balance,parent_account,active
+1000,Operating Checking,asset,bank,debit,,yes
+1010,Savings,asset,bank,debit,,yes
+1100,Accounts Receivable,asset,accounts_receivable,debit,,yes
+1200,Inventory,asset,other_current_asset,debit,,yes
+1300,Prepaid Insurance,asset,other_current_asset,debit,,yes
+1500,Equipment,asset,fixed_asset,debit,,yes
+1510,Accumulated Depreciation - Equipment,asset,accumulated_depreciation,credit,,yes
+2000,Accounts Payable,liability,accounts_payable,credit,,yes
+2100,Business Credit Card,liability,credit_card,credit,,yes
+2200,Payroll Liabilities,liability,other_current_liability,credit,,yes
+2300,Sales Tax Payable,liability,other_current_liability,credit,,yes
+2700,Equipment Loan,liability,long_term_liability,credit,,yes
+3000,Owner's Capital,equity,owner_equity,credit,,yes
+3100,Owner's Draws,equity,owner_equity,debit,,yes
+3900,Retained Earnings,equity,retained_earnings,credit,,yes
+4000,Maintenance Contracts,revenue,income,credit,,yes
+4100,Installation Projects,revenue,income,credit,,yes
+4900,Sales Returns and Discounts,revenue,income,debit,,yes
+5000,"Plants, Materials and Subcontractors",expense,cost_of_sales,debit,,yes
+6000,Wages,expense,operating_expense,debit,,yes
+6010,Payroll Taxes,expense,operating_expense,debit,,yes
+6100,Rent,expense,operating_expense,debit,,yes
+6200,Utilities,expense,operating_expense,debit,,yes
+6300,Insurance,expense,operating_expense,debit,,yes
+6400,Supplies,expense,operating_expense,debit,,yes
+6500,Software and Subscriptions,expense,operating_expense,debit,,yes
+6600,Bank and Card Fees,expense,operating_expense,debit,,yes
+6700,Vehicle and Fuel,expense,operating_expense,debit,,yes
+6800,Depreciation,expense,operating_expense,debit,,yes
+6900,Professional Fees,expense,operating_expense,debit,,yes
+8000,Interest Income,revenue,other_income,credit,,yes
+8500,Interest Expense,expense,other_expense,debit,,yes

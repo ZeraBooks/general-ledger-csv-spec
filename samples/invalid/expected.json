@@ -1,0 +1,219 @@
+[
+  {
+    "folder": "samples/invalid/dollar-signs",
+    "must_fail": "GL-001",
+    "what_is_wrong": "amounts with $ signs",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/duplicate-account-number",
+    "must_fail": "GL-002",
+    "what_is_wrong": "account 1000 listed twice",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/unknown-account-type",
+    "must_fail": "GL-003",
+    "what_is_wrong": "type 'current asset' instead of asset",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/wrong-normal-balance",
+    "must_fail": "GL-004",
+    "what_is_wrong": "an account with the wrong normal balance (warning)",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/number-out-of-range",
+    "must_fail": "GL-005",
+    "what_is_wrong": "an asset numbered in the revenue range (warning)",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/entry-out-of-balance",
+    "must_fail": "GL-006",
+    "what_is_wrong": "one line typed $10 high",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/debit-and-credit-on-one-line",
+    "must_fail": "GL-007",
+    "what_is_wrong": "a line with both a debit and a credit",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/one-line-entry",
+    "must_fail": "GL-008",
+    "what_is_wrong": "an entry with a single line",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/account-not-in-chart",
+    "must_fail": "GL-009",
+    "what_is_wrong": "a line posted to 6450, which isn't in the chart",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/inactive-account",
+    "must_fail": "GL-010",
+    "what_is_wrong": "postings to an account marked inactive (warning)",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/entry-outside-period",
+    "must_fail": "GL-011",
+    "what_is_wrong": "a September entry in the August journal",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/tb-does-not-balance",
+    "must_fail": "GL-012",
+    "what_is_wrong": "a trial balance with debits $100 over credits",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/tb-both-sides",
+    "must_fail": "GL-013",
+    "what_is_wrong": "a trial balance row with both a debit and a credit",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/entry-missing-from-journal",
+    "must_fail": "GL-014",
+    "what_is_wrong": "the closing TB includes an entry the journal doesn't",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/abnormal-balance",
+    "must_fail": "GL-015",
+    "what_is_wrong": "accounts payable showing a debit balance (warning)",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/unmapped-account-in-tb",
+    "must_fail": "GL-016",
+    "what_is_wrong": "a suspense account not in the chart, so the balance sheet doesn't balance",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "folder": "samples/invalid/double-posting",
+    "must_fail": "GL-017",
+    "what_is_wrong": "the same deposit entered twice (warning)",
+    "args": {
+      "coa": "chart-of-accounts.csv",
+      "journal": "journal.csv",
+      "opening": "opening-tb.csv",
+      "closing": "closing-tb.csv"
+    },
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  }
+]
